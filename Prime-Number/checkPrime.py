@@ -1,8 +1,8 @@
 import math 
-num = int(input("Give a number: "))
+num = int(input("Give a positive number: "))
 if num > 1:
    
-   for i in range(2,int(math.sqrt(num))):
+   for i in range(2, num):
        if (num % i) == 0:
            print num,"is not a prime number"
            break
